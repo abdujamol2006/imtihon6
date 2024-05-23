@@ -1,0 +1,105 @@
+/*.sign-container {
+  border-radius: 30px;
+  backdrop-filter: blur(42px);
+  background: linear-gradient(
+    92.67deg,
+    rgba(255, 255, 255, 0) -40.962%,
+    rgba(255, 255, 255, 0.04) 96.561%
+  );
+}*/
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 30px;
+  backdrop-filter: blur(42px);
+  background: linear-gradient(
+    92.67deg,
+    rgba(255, 255, 255, 0) -40.962%,
+    rgba(255, 255, 255, 0.04) 96.561%
+  ); /* Rectangle 51 */
+  border-radius: 30px;
+  border: 2px solid rgb(176, 176, 184);
+  backdrop-filter: blur(42px);
+  background: linear-gradient(
+    92.67deg,
+    rgba(255, 255, 255, 0) -40.962%,
+    rgba(255, 255, 255, 0.04) 96.561%
+  );
+  width: 453px;
+  height: 628px;
+  color: #fff;
+}
+.submit {
+  border-radius: 12px;
+  backdrop-filter: blur(120px);
+  background: rgb(0, 117, 255);
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  /* _Button/Base */
+  position: relative;
+  width: 350px;
+  height: 45px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 8px 0px 8px;
+}
+
+.submit:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+.signinput {
+  border-radius: 20px;
+  backdrop-filter: blur(42px);
+  background: linear-gradient(
+    92.69deg,
+    rgba(255, 255, 255, 0) -45.295%,
+    rgba(255, 255, 255, 0.04) 104.212%
+  ); /* Name */
+  position: relative;
+  width: 350px;
+  height: 50px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px 20px 0px 20px;
+  color: rgb(160, 174, 192);
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.sign-con {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.loginlink {
+  font-size: 24px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: rgb(160, 174, 192);
+}
+.oq {
+  color: rgb(255, 255, 255);
+}
