@@ -29,6 +29,11 @@ function SignUp() {
   return (
     <>
       <div className="container sign-container">
+        <h1>WELCOME!</h1>
+        <p>
+          Use these awesome forms to login or create new account in your project
+          for free.
+        </p>
         <form className="form" onSubmit={handleSubmit}>
           <label className="sign-con" htmlFor="">
             <p>Name</p>
