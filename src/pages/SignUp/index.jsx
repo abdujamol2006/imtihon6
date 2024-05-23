@@ -29,8 +29,8 @@ function SignUp() {
   return (
     <>
       <div className="container sign-container">
-        <h1>WELCOME!</h1>
-        <p>
+        <h1 className="fin">WELCOME!</h1>
+        <p className="fin">
           Use these awesome forms to login or create new account in your project
           for free.
         </p>

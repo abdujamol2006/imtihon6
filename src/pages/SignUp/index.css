@@ -11,6 +11,9 @@
   display: flex;
   flex-direction: column;
 }
+.fin {
+  color: #fff;
+}
 .form {
   display: flex;
   margin-top: 30px;
